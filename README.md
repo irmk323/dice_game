@@ -7,3 +7,4 @@ download the code, and go to the directory, then run "node dice_game.js"
 # To run tests
 please install jtest by running "npm install --save-dev jest"
 then run "npm test"
+

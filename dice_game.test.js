@@ -31,3 +31,9 @@ test('scoreDice new', () => {
 expect(scoreDice(dice)).toBe(700);
 });
 
+test('scoreDice new', () => {
+  let dice = [1, 2, 3, 4, 5, 6];
+expect(scoreDice(dice)).toBe(1000);
+});
+
+

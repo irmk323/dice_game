@@ -121,8 +121,8 @@ function checkSingleFive (dice_map,score) {
 function oneToSix (dice_map) {
     var oneToSixFlag = Boolean("true");
     for (const value of dice_map.values()) {
-        if(value != 1){
-            oneToSixFlag = false;
+        if (value != 1) {
+            oneToSixFlag = false
         }
       }
     return oneToSixFlag;
